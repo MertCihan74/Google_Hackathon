@@ -1,6 +1,27 @@
-# Web Application
+# Öğrenme Yol Haritası Uygulaması
 
-Bu proje, modern web teknolojileri kullanılarak geliştirilmiş bir web uygulamasıdır. Frontend ve backend olmak üzere iki ana bileşenden oluşmaktadır.
+Bu proje, kullanıcıların öğrenmek istedikleri konular için yapay zeka destekli kişiselleştirilmiş öğrenme yol haritaları oluşturan modern bir web uygulamasıdır. Frontend ve backend olmak üzere iki ana bileşenden oluşmaktadır.
+
+## Uygulama Özellikleri
+
+### Kullanıcı Yönetimi
+- Kullanıcı kaydı ve girişi
+- Kimlik doğrulama sistemi
+- Kişiselleştirilmiş kullanıcı deneyimi
+
+### Yol Haritası Oluşturma
+- Yapay zeka destekli öğrenme yol haritası oluşturma
+- Öğrenme süresine göre özelleştirilmiş planlar
+- Detaylı ve aşamalı öğrenme içeriği
+
+### Öğrenme Süreci
+- Sıralı ve yapılandırılmış öğrenme aşamaları
+- Her aşama için yapay zeka tarafından oluşturulan detaylı açıklamalar
+- Aşama bazlı ilerleme takibi
+- Her aşama için özel test soruları
+- Başarılı test tamamlama koşulu ile sonraki aşamaya geçiş
+
+
 
 ## Kullanılan Teknolojiler
 
