@@ -1,0 +1,131 @@
+.roadmap-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.roadmap-container h1 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.duration-info {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.steps-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.step-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.step-card:hover {
+  transform: translateY(-2px);
+}
+
+.step-card h2 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.step-card h3 {
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+.step-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.resources {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.resources h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.resource-section {
+  margin-bottom: 1rem;
+}
+
+.resource-section h5 {
+  color: #3498db;
+  margin-bottom: 0.5rem;
+}
+
+.resource-section ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.resource-section li {
+  color: #666;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.resource-section li:before {
+  content: "•";
+  color: #3498db;
+  position: absolute;
+  left: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+}
+
+.error {
+  text-align: center;
+  padding: 2rem;
+  color: #e74c3c;
+  background: #fde8e8;
+  border-radius: 8px;
+  margin: 2rem;
+}
+
+.back-button {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 0.8rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+} 
